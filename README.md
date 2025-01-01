@@ -25,7 +25,7 @@
 1. 克隆仓库：
     ```sh
     git clone https://github.com/huaguihai/CenticBot.git
-    cd centicBot
+    cd CenticBot
     ```
 
 2. 安装依赖：
