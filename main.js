@@ -34,7 +34,7 @@ function createAxiosInstance(proxy) {
     }
 }
 
-// Fetch tasks 
+// 获取任务
 async function fetchTasks(token, proxy = null) {
     const url = 'https://develop.centic.io/ctp-api/centic-points/tasks';
     const axiosInstance = createAxiosInstance(proxy);
@@ -70,7 +70,7 @@ async function fetchTasks(token, proxy = null) {
     }
 }
 
-// Fetch user 
+// 获取用户信息
 async function fetchUserRank(token, proxy = null) {
     const url = 'https://develop.centic.io/ctp-api/centic-points/user-rank';
     const axiosInstance = createAxiosInstance(proxy);
@@ -102,7 +102,7 @@ async function claimUsers(token, proxy = null) {
         return null;
     }
 };
-// Claim task 
+// 领取任务
 async function claimTasks(token, task, proxy = null) {
     const url = 'https://develop.centic.io/ctp-api/centic-points/claim-tasks';
     const axiosInstance = createAxiosInstance(proxy);
@@ -117,7 +117,7 @@ async function claimTasks(token, task, proxy = null) {
     }
 }
 
-// Main function
+// 主函数
 async function main() {
     log.info(bangToib);
 

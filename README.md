@@ -1,51 +1,51 @@
-# Centic Auto Claim Tasks
+# Centic 自动领取任务
 ![banner](image.png)
 
-This script automates claim tasks to earn the Centic Points (CTP)
+本脚本自动领取任务以获取Centic积分（CTP）
 
-## Features
+## 功能
 
-- **Auto Claim Quest**
-- **Auto Claim Daily Reward**
-- **Support multiple accounts**
-- **Support Proxy usage**
+- **自动领取任务**
+- **自动领取每日奖励**
+- **支持多账号**
+- **支持使用代理**
 
-## Prerequisites
+## 前提条件
 
-- Node.js installed on your machine
-- `tokens.txt` file containing token apikey from centic platform follow instruction below to get:
-- Open centic platform [https://centic.io/quests/](https://centic.io/quests/daily?refferalCode=eJwNwQkRACAIBMBKp4gMcXgzGF928TDILa2UcFikqKsjGtCUvS63y_j7xwuX)
-- Login With your wallet
-- inspect or just F12, and find Application
-- in local storage find `apiKey_` and copy all value.
+- 已安装Node.js
+- `tokens.txt`文件包含来自Centic平台的token apikey，获取方法如下：
+- 打开Centic平台 [https://centic.io/quests/](https://centic.io/quests/daily?refferalCode=eJwNwQkRACAIBMBKp4gMcXgzGF928TDILa2UcFikqKsjGtCUvS63y_j7xwuX)
+- 使用钱包登录
+- 按F12打开开发者工具，找到Application选项卡
+- 在Local Storage中找到`apiKey_`并复制所有值
 ![Apikey](image-1.png)
 
-## Installation
+## 安装
 
-1. Clone the repository:
+1. 克隆仓库：
     ```sh
-    git clone https://github.com/Zlkcyber/centicBot.git
+    git clone https://github.com/huaguihai/CenticBot.git
     cd centicBot
     ```
 
-2. Install the required dependencies:
+2. 安装依赖：
     ```sh
     npm install
     ```
-3. Input your centic apikey in `tokens.txt` file, one user per line;
+3. 在`tokens.txt`文件中输入你的Centic apikey，每行一个用户；
     ```sh
     nano tokens.txt
     ```
-4. optionally you can use proxy: 
-- paste proxy in `proxy.txt` format `http://username:password@ip:port` 
+4. 可选使用代理：
+- 在`proxy.txt`中粘贴代理，格式为`http://用户名:密码@IP:端口`
     ```sh
     nano proxy.txt
     ```
-5. Run the script:
+5. 运行脚本：
     ```sh
     npm run start
     ```
 
 ## ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-This project is licensed under the [MIT License](LICENSE).
+本项目采用 [MIT License](LICENSE) 许可证。
