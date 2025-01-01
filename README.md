@@ -14,7 +14,7 @@
 
 - 已安装Node.js
 - `tokens.txt`文件包含来自Centic平台的token apikey，获取方法如下：
-- 打开Centic平台 [https://centic.io/quests/](https://centic.io/quests/daily?refferalCode=eJwNwQkRACAIBMBKp4gMcXgzGF928TDILa2UcFikqKsjGtCUvS63y_j7xwuX)
+- 打开Centic平台 [https://centic.io/quests/](https://centic.io/quests/daily?refferalCode=eJwNyckRACAIBLCWllvKwQFrsHzNN7haq8bJg1OyFMJqEWMbx1c3gWx-8APqvQrb)
 - 使用钱包登录
 - 按F12打开开发者工具，找到Application选项卡
 - 在Local Storage中找到`apiKey_`并复制所有值
